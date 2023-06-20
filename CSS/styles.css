@@ -1,0 +1,314 @@
+@charset "UTF-8";
+
+html, body {
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	background: #DCE2DC;
+	color: #000;
+	font-family: "Raleway", Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+}
+
+.container {
+	width: 900px;
+	height: inherit;
+	margin: auto;
+	background: #fff;
+
+}
+
+header {
+	background: #B35032;
+}
+
+header h1{
+	color: #FBF2EF;
+	text-align: center;
+	padding: 20px;
+}
+
+nav, nav ul {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+}
+
+nav ul {
+	display: flex;
+	list-style: none;
+	background: #B35032;
+	font-weight: bolder;
+	position: relative;
+}
+
+nav ul li:hover > ul {
+	display: block;
+	position: absolute;
+	margin-top: 10px;
+	width: auto;
+}
+
+nav ul li:hover, nav ul li:hover > a, .submenu li:hover > a {
+	background: #DCE2DC;
+	color: #000;
+}
+
+section a:hover, .content a:hover{
+	background: #DCE2DC;
+	color: #000;
+}
+
+nav li {
+	display: inline-block;
+	text-align: center;
+	width: 100%;
+	padding: 10px 0;
+	text-decoration: none;
+	font-size: 16pt;
+	color: #FBF2EF;
+}
+
+nav a {
+	color: #FBF2EF;
+	text-decoration: none;
+}
+
+.active, .active ~ a {
+	background: #FBF2EF;
+	color: #B35032;
+}
+
+.submenu {
+	display: none;
+	width: 100%;
+	background: #DCE2DC;
+}
+
+.submenu li > a {
+	color: #B35032;
+}
+
+.submenu li {
+	display: block;
+	float: left;
+	text-align: left;
+	padding: 10px;
+	width: auto;
+	clear: both;
+}
+
+section {
+	height: auto;
+}
+
+aside {
+	width: 25%;
+	float: right;
+	margin: -5px 0 20px 20px;
+	background: #657A65;
+	padding: 10px;
+}
+
+aside h2 {
+	font-size: 22pt;
+	line-height: 20pt;
+	color:#FFF;
+}
+
+aside li {
+	color: #FBF2EF;
+}
+
+.pre-test {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.pre-test a {
+	background: #657A65;
+	padding: 20px 30px;
+	border-radius: 10px;
+	margin: 25px;
+	color: #FFF;
+	font-size: 22pt;
+}
+
+.pre-test a:hover {
+	background: #FBF2EF;
+	color: #B35032;
+	border: 5px solid #B35032;
+	margin: 20px;
+}
+
+iframe {
+	padding-left: 20px;
+	margin: 10px auto;
+	
+}
+
+.modules {
+	display: flex;
+}
+
+.columns {
+	width: 25%;
+	display: inline-block;
+}
+
+.columns h3 {
+	font-size: 12pt;
+	font-weight: bold;
+	text-align: center;
+	padding: 0.25em;
+}
+
+
+.icon {
+	margin-top: 5px;
+	display: flex;
+	justify-content: center;
+}
+
+.icon img {
+	max-height: 75px;
+	margin-bottom: 5px;
+}
+
+.center-text {
+	text-align: center !important;	
+}
+
+h1, h2 {
+	font-variant: small-caps;
+}
+
+h1, h2, h3 {
+	padding: 10px 20px;
+	margin: 0;
+}
+
+h1 {
+	font-size: 55pt;
+	color: #B35032;
+	line-height: 45pt;
+	margin: .25em 0;
+}
+
+h2 {
+	font-size: 25pt;
+	line-height: 25pt;
+}
+
+p, li {
+	font-size: 14pt;
+	line-height: 20pt;
+	font-family: Calibri, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+}
+
+p {
+	padding: 0 1em;
+	margin: 0;
+}
+
+a {
+	color: #333D33;
+}
+
+blockquote {
+	border-left: 3px solid #6B6B6B;
+	padding-left: 10px;
+	line-height: 20pt;
+}
+
+section h2 {
+	padding-left: 20px;
+	margin: 5px 0;
+}
+
+.check-box {
+	margin-top: 5px;
+	list-style: none;
+}
+
+.check-box li {
+	line-height: 30px;
+}
+
+footer {
+	text-align: center;
+	background: #B35032;
+	color: #FBF2EF;
+	margin: 10px 0 0 0;
+}
+
+.module-heading {
+	line-height: 98%;
+	margin: 0;
+	padding: 0;
+}
+
+h1.module-heading {
+	margin-top: 10px;
+}
+
+.tabs {
+	list-style: none;
+	display: flex;
+	padding: 0;
+	margin-left: 20px;
+	margin-bottom: 0;
+}
+
+.tabs li {
+	display: inline-block;
+	width: auto;
+	padding: 10px 10px 5px 10px;
+	border-top: thin solid #000;
+	border-right: thin solid #000;
+	border-left: thin solid #000;
+	border-radius: 10px 10px 0 0;
+	border-collapse: collapse;
+	background: #B35032;
+	color: #FBF2EF;
+}
+
+.tabs li:hover {
+	background: #DCE2DC;
+	color: #000;
+
+}
+
+.active-content {
+	background: #FFFFFF !important;
+	color: #B35032 !important;
+	font-weight: bolder;
+}
+
+.content {
+	border-left: thin solid #000;
+	border-bottom: thin solid #000;
+	margin: -5px 20px 0;
+	border-collapse: collapse;
+}
+
+.content p {
+	margin-bottom: 10px;
+}
+
+.kc {
+	position: relative;
+}
+
+input {
+	float: left;
+	margin-right: 25px;
+	margin-top: 7px;
+}
+
+.kc li {
+	list-style: upper-alpha;
+}
+

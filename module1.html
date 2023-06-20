@@ -1,0 +1,99 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Accessibility Module</title>
+<link href="CSS/styles.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+<div class="container">
+	<header>
+		<h1>Accessible Course Content</h1>
+		<nav>
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li class="active">Modules
+					<ul class="submenu">
+						<li><a href="module1.html">Module 1: Standards and Regulations</a></li>
+						<li><a href="module2.html">Module 2: Guides and References</a></li>
+						<li><a href="module3.html">Module 3: Canvas Content</a></li>
+						<li><a href="module4.html">Module 4: External Content</a></li>
+					</ul>
+				</li>
+				<li><a href="resources.html">Resources</a></li>
+				<li><a href="finalproject.html">Final Project</a></li>
+				<li><a href="contactus.html">Contact Us</a></li>
+			</ul>
+		</nav>
+	</header>
+	
+	<section>
+		<h1 class="center-text module-heading">Module 1</h1>
+		<h2 class="center-text module-heading">Standards and Regulations</h2>
+		
+		<section>
+			<ul class="tabs">
+				<li class="active-content">Content</li>
+				<a href="mod1-kc.html"><li>Knowledge Check</li></a>
+				<a href="mod1-res.html"><li>Reources</li></a>
+				<a href="mod1-quiz.html"><li>Quiz</li></a>
+			</ul>
+			
+			<div class="content">
+				<h2>Introduction</h2>
+					<p>Accessibility is not only an essential equitable teaching practice; it is also required by law. Federally, accessibility is mandated by the <a href="#ada">Americans with Disabilities Act of 1990</a> and <a href="#508">Section 508 of the Rehabilitation Act of 1973</a> and guided by the <a href="#wcag">Web Content Accessibility Guidelines</a>. Locally within California and within the California Community Colleges system, accessibility is mandated by <a href="#title5">Title 5 of the California Code of Regulations</a> and guided by the <a href="https://cvc.edu/wp-content/uploads/2018/10/CVC-OEI-Course-Design-Rubric-rev.10.2018.pdf" target="_blank">Online Education Initiative Course Design Rubric</a>. Let's learn about each of these and how they apply to online courses.</p>
+				
+				<h2 id="ada">Americans with Disabilities Act of 1990</h2>
+					<blockquote>
+						<strong>Sec. 12132. Discrimination</strong><br>
+						Subject to the provisions of this subchapter, no qualified individual with a disability shall, by reason of such disability, be excluded from participation in or be denied the benefits of services, programs, or activities of a public entity, or be subjected to discrimination by any such entity.
+					</blockquote>
+					<p>The <a href="https://www.ada.gov/law-and-regs/ada/" target="_blank">American with Disabilities Act of 1990</a>, more commonly referred to as ADA, set forth an overarching standard for access for persons with disabilities. As public institutions, California community colleges must ensure that persons with disabilities are not excluded from participating in our courses. Face-to-face classes have somewhat of an advantage in this regard because of the amazing resources we provide through the Disability Resource Center. We can accommodate our students by providing services such as sign language interpreters and braille translations of textbooks. Online classes are not easy. As you may recall from the <a href="https://www.youtube.com/embed/eks3r-nE9lU" target="_blank">Portland Community College video</a> on the home page of this course, even those with assistive technology accommodations such as screen readers can find it difficult to navigate your course and its contents.</p>
+				
+				<h2 id="508">The Rehabilitation Act of 1973</h2>
+					<blockquote>
+					<strong>E203.1 General</strong><br>
+					Agencies shall ensure that all functionality of ICT is accessible to and usable by individuals with disabilities, either directly or by supporting the use of assistive technology, and shall comply with E203. In providing access to all functionality of ICT, agencies shall ensure the following:
+					<ol>
+						<li>That Federal employees with disabilities have access to and use of information and data that is comparable to the access and use by Federal employees who are not individuals with disabilities; and</li>
+						<li>That members of the public with disabilities who are seeking information or data from a Federal agency have access to and use of information and data that is comparable to that provided to members of the public who are not individuals with disabilities.</li>
+					</ol>
+					<strong>E203.2 User Needs</strong><br>
+					When agencies procure, develop, maintain or use ICT they shall identify the needs of users with disabilities to determine:
+					<ol>
+						<li>How users with disabilities will perform the functions supported by the ICT; and</li>
+						<li>How the ICT will be developed, installed, configured, and maintained to support users with disabilities.</li>
+					</ol>
+				</blockquote>
+				<p><a href="https://www.access-board.gov/ict/#E203-functionality" target="_blank">Section 508 of the Rehabilitation Act of 1973</a>, more commonly referred to simply as Section 508, outlines standards related to information and communication technology (ICT). Because online courses are administered using ICT, they are subject to the requirements of Section 508 standards. These standards extend to external tools that we use in our online courses such as TurnItIn, MyMathLab, and Perusall.</p>
+			
+			<h2>Web Content Accessibility Guidelines</h2>
+				<p>The <a href="https://www.w3.org/TR/WCAG21/" target="_blank">Web Content Accessibility Guidelines</a>, more commonly referred to as the WCAG, was developed by the World Wide Web Consortium (W3C). It is the industry standard for gauging the accessibility of specific elements of web accessibility. While most acessibility standards require compliance with WCAG 2.0, the most recent version of the WCAG is actually WCAG 2.1, and there are already working drafts out for <a href="https://www.w3.org/TR/WCAG22/">WCAG 2.2</a> and <a href="https://www.w3.org/WAI/standards-guidelines/wcag/wcag3-intro/">WCAG 3.0</a>.</p>
+				<p>Within all of its versions, the WCAG utilizes three levels of conformance: A, AA, and AAA. An <strong>'A'</strong> level indicates the most basic level of accessibility compliance, and an <strong>'AAA'</strong> level indicates the highest, most ideal level of compliance. Each level indicates complinace with the lower level. This means that an <strong>'AAA'</strong> level implies compliance with <strong>'A'</strong> level and <strong>'AA'</strong> level criteria. Although an <strong>'AAA'</strong> level is the most ideal, it is not required. For the most part, your course content will be considered compliant at the <strong>'AA'</strong> level when applicable.</p>
+			
+			<h2>Title 5. Distance Education</h2>
+				<blockquote>
+				<strong>&#167;55200. Definition and Application</strong><br>
+				
+				(c) "Accessible" means a person with a disability is afforded the opportunity to acquire the same information, engage in the same interactions, and enjoy the same services as a person without a disability in an equally effective and equally integrated manner, with substantially equivalent ease of use. The person with a disability must be able to obtain the information as fully, equally and independently as a person without a disability. Although this might not result in identical ease of use compared to that of persons without disabilities, it still must ensure equal opportunity to the educational benefits and opportunities afforded by the technology and equal treatment in the use of such technology.
+				</blockquote>
+				<p><a href="https://www.cccco.edu/-/media/CCCCO-Website/Office-of-General-Counsel/SOS--OAL-Filed--Distance-Education-1052022.pdf?la=en&hash=1CB51B262F19F176A4F6FFF9E768E4F91B9AEF61" target="_blank">&#167;55200</a> lives within Article 1 of Subchapter 3 of Chapter 6 of Division 6 of Title 5 of The California Code of Regulations. For reference, Division 6 lists all standards for California Community Colleges, and Article 1 lists all standards for Distance Education.</p>
+				<p>This definition of accessibility was last revised in October of 2022. This updated definition is far stricter than the original provisions that only required content to comply with the above federal regulations.</p>
+				
+			<h2>Online Education Initiatuve Course Design Rubric</h2>
+				<p>The <a href="https://cvc.edu/wp-content/uploads/2018/10/CVC-OEI-Course-Design-Rubric-rev.10.2018.pdf" target="_blank">Online Education Initiatuve Course Design Rubric</a>, more commonly referred to simply as the OEI Rubric, sets the standard for quality online course design within the California Community College system. We use this rubric as part of our Local Peer Online Course Review (Local POCR) process to evaluate online courses and bestow quality badges.</p>
+				<p>Section D of the OEI Rubric outlines the requirements for accessibility compliance. This section has 16 elements that are evaluated for alignment.</p>
+			</div>
+		</section>
+		
+	</section>
+	
+  <footer>
+		<p>&#169; Debbie Lou Angeles 2023</p>
+	</footer>
+		
+</div>
+</body>
+
+</html>
