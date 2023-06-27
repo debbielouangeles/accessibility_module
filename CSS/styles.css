@@ -145,8 +145,7 @@ aside li {
 
 iframe {
 	padding-left: 20px;
-	margin: 10px auto;
-	
+	margin: 10px auto;	
 }
 
 .modules {
@@ -215,6 +214,7 @@ p {
 
 a {
 	color: #333D33;
+	font-weight: bold;
 }
 
 blockquote {
@@ -241,7 +241,6 @@ footer {
 	text-align: center;
 	background: #B35032;
 	color: #FBF2EF;
-	margin: 10px 0 0 0;
 }
 
 .module-heading {
@@ -312,3 +311,28 @@ input {
 	list-style: upper-alpha;
 }
 
+.next-link, .back-link {
+	margin: 50px 20px;
+
+}
+
+.next-link {
+	text-align: right;
+
+}
+
+.next-link a, .back-link a {
+	background: #657A65;
+	padding: 10px;
+	border-radius: 10px;
+	margin: 25px 5px;
+	color: #FFF;
+	font-size: 18pt;
+}
+
+.next-link a:hover, .back-link a:hover {
+	background: #FBF2EF;
+	color: #B35032;
+	border: 5px solid #B35032;
+	margin: 20px 0px;
+}
