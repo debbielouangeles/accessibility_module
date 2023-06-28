@@ -278,6 +278,7 @@ h1.module-heading {
 .tabs li:hover {
 	background: #DCE2DC;
 	color: #000;
+	border-radius: 10px 10px 0 0;
 
 }
 
